@@ -33,7 +33,9 @@ export enum Colors {
   // Background
   BG1 = '#d1e3f8',
   BG2 = '#e8f1fb',
-  BG3 = '#f5f9ff'
+  BG3 = '#f5f9ff',
+  BG4 = '#0A2B52',
+  BG5 = '#4991E5'
 }
 
 export enum FontSizes {

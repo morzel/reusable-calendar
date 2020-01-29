@@ -36,7 +36,7 @@ const CalendarBody: React.FunctionComponent<CalendarBodyProps> = (props) => {
       <div className={'one-week'}>
         {weekDays.map((day, index) => (
           <div className={'single-box invisible-day'} key={'weekday' + index}>
-            <span>{day}</span>
+            <span className={'day-value'}>{day}</span>
           </div>
         ))}
       </div>
